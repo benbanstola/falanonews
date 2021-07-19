@@ -1,0 +1,97 @@
+.container{
+    display: block;
+    background-color: #353b48;
+    padding: 4rem 1rem;
+ 
+}
+.heading{
+    margin: 0;
+    font-size: 2.4em;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    color: #2ed573;
+}
+.heading2{
+    margin: 0;
+    color: #ced6e0;
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: center;
+}
+.cardcontainermain{
+    display: grid;
+    grid-template-columns: 8rem 1fr;
+    place-items: center;
+    font-size: 1em;
+    line-height: 1.4;
+    color: #dcdde1;
+}
+.cardcontainersub{
+  display: none;
+}
+.title{
+    font-size: 4.8em;
+    line-height: 1.4;
+    font-weight: 800;
+    color: white;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+.buttonNext{
+    border: none;
+    border-bottom: 1px solid #ffaf40;
+    background-color: #353b48 ;
+    color: #ffaf40;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.4;
+    cursor: pointer;
+}
+.buttonPrevious{
+    border: none;
+    border-bottom: 1px solid #ffaf40;
+    background-color: #353b48 ;
+    color: #ffaf40;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.4;
+    cursor: pointer;
+}
+@media only screen and (min-width: 500px) {
+}
+@media only screen and (min-width: 850px) {
+    .container{
+        padding: 6rem 16rem;
+     
+    }
+    .heading{
+        font-size: 4.4em;
+        font-weight: 900;
+    }
+    .heading2{
+        font-size: 2em;
+    }
+    .cardcontainermain{
+        grid-template-columns: 20rem 1fr;
+        font-size: 1.3em;
+    }
+    .title{
+        font-size: 4.8em;
+    }
+    .buttonNext{
+        font-size: 1.4em;
+    }
+    .buttonPrevious{
+        font-size: 1.4em;
+    }
+    
+}

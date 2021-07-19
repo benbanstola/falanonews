@@ -1,0 +1,169 @@
+.maincontainer{
+    margin: 0;
+    padding: 2rem 0 2rem 0;
+}
+.joincommunity{
+    margin: 0;
+    padding-bottom: 2rem;
+    font-size: 2em;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align: center;
+    color: #2b2b2b;
+}
+.maintitle{
+    font-size: 1.5em;
+    line-height: 1.4;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mainsvg{
+    background-color: #c8d6e5;
+    border-radius: 60%;
+    width: 16rem;
+    height: 16rem;
+}
+.joincommunitydescription{
+    margin: 0;
+    padding: 1rem 3rem;
+    font-size: 0.9em;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #2b2b2b;
+
+}
+.containerfordetails{
+    padding: 2rem 0;
+}
+.communitydetailscontainer{
+    display: grid;
+    grid-template-columns: repeat(auto,minmax(100px,1fr));
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.4;
+    font-weight: 500;
+
+}
+.detailtitle{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+.detailsvg{
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto;
+}
+.morebutton{
+    margin-top: 1.2rem;
+    border: none;
+    background-color: #ffeaa7;
+    color: #2b2b2b;
+    padding: 4px 8px;
+    min-height: 32px;
+    min-width: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.7em;
+    line-height: 1.2em;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.detaildescription{
+    text-align: left;
+    padding: 0 2rem;
+}
+.morebutton:active{
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 500px) {
+
+}
+@media only screen and (min-width: 850px) {
+    .maintitle{
+        width: 72%;
+        margin: 0 auto;
+        padding: 3rem 0 2rem 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:2rem;
+    }
+    .joincommunity{
+        margin-top: 1rem;
+        padding-bottom: 0;
+        align-self: flex-end;
+        font-size: 3.5em;
+        line-height: 1;
+        text-align: left;
+    }
+    .joincommunitydescription{
+        padding: 0;
+        font-size: 1.2em;
+        margin: 0;
+        text-align: left;
+        align-self: flex-start;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #2b2b2b;
+    }
+    .mainsvg{
+        background: linear-gradient(to right, #4389a20c, #5c258d00); 
+        border-radius: 0;
+        grid-row: 1/5;
+        grid-column: 2/3;
+        width: 36rem;
+        height: 32rem;
+    }
+    .authbuttoncontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+
+    }
+    .authbutton{
+        margin: 0;
+        padding: 0;
+        grid-column: 1/-1;
+        font-size: 1.4em;
+    }
+    .morebutton{
+        margin: 0 auto;
+        padding: 0.6rem;
+        font-size: 1em;
+        width: fit-content;
+        grid-column: 1/-1;
+    }
+ 
+    .containerfordetails{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem;
+    }
+   
+    .communitydetailscontainer{
+        display: grid;
+        grid-template-columns: repeat(auto,minmax(300px,1fr));
+        padding: 0 1rem;
+        font-size: 1.4em;
+        line-height: 1.4;
+        font-weight: 500;
+    
+    }
+    .detaildescription{
+        text-align: left;
+        padding: 0 5rem;
+    }
+    .detailsvg{
+        width: 20rem;
+        height: 20rem;
+        margin: 0 auto;
+    }
+  
+  
+}

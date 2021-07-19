@@ -1,0 +1,134 @@
+.maincontainer{
+    background-color: #DAE0E6;
+   display: block;
+   width: 100%;
+   padding-top: 10px;
+   font-size: 16px;
+}
+.postcontainer{
+    display: grid;
+    margin-bottom: 1rem;
+    grid-template-columns: 3rem 1fr;
+    grid-template-rows: 1.4rem 1fr;
+    padding: 0.3rem 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+}
+.votecontainer{
+    grid-row: 1/3;
+    color: #878A8C;
+}
+.metacontainer{
+    grid-column: 2/3;
+    display: inline-block;
+    font-size: 0.85em;
+    line-height: 1.4;
+    color: #878A8C;
+    font-weight: 400;
+}
+
+.descriptioncontainer{
+    grid-column: 2/4;
+    word-wrap: break-word;
+    line-height: 1.4;
+    margin: 0;
+}
+.title{
+    margin: 1.2rem 0 0.5rem 0;
+    font-weight: 700;
+    font-size: 1.3em;
+    line-height: 1.4;
+    color: #1e272e;
+}
+.description{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 1.4;
+    color: #4b4b4b;
+}
+.commentcontainer{
+    grid-row: 3/3;
+    grid-column: 2/3;
+    font-size: 1em;
+    line-height: 1.4;
+    color: #878A8C;
+    font-weight: 400;
+    margin: 0.6rem 0;
+}
+
+.commentlistcontainer{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-column: 2/4;
+    font-size: 1.1em;
+    color: #4b4b4b;
+    margin: 0.65rem 0 0 0;
+}
+
+.commentimg{
+    grid-row: 1/3;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.commentmeta{
+    margin: 0;
+    display: inline-block;
+    font-size: 0.85em;
+    line-height: 1.4;
+    color: #878A8C;
+    font-weight: 400;
+    cursor: pointer;
+}
+.commenttext{
+    margin-top: 0.45rem ;
+}
+.commentform{
+    width: 100%;
+    grid-column: 2/4;
+    border-bottom: 2px solid #95afc0 ;
+    margin-bottom: 2rem;
+}
+.opencommunitycontainer{
+    background-color: #DAE0E6;
+   display: block;
+   width: 100%;
+   padding-top: 10px;
+   font-size: 16px;
+}
+.upvote,.downvote{
+    font-size: large;
+}
+
+@media only screen and (min-width: 500px) {
+}
+@media only screen and (min-width: 850px) {
+  
+    .maincontainer{
+       display: grid;
+       grid-template-columns: 1fr 70%;
+       font-size: 16px;
+    }
+    .opencommunitycontainer{
+        padding: 10px 8rem;
+    }
+   
+    .postcontainer{
+        margin: 0 0 1rem 0;
+        width: 80%;
+        padding: 0.3rem 1rem;
+    }
+    .commentform{
+        margin: 0 auto;
+        width: 80%;
+        grid-column: 2/4;
+        border-bottom: 2px solid #95afc0 ;
+        margin-bottom: 2rem;
+    }
+   
+  
+}

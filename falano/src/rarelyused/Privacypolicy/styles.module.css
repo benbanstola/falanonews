@@ -1,0 +1,37 @@
+.container{
+    line-height: 1.4;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-size: 16px;
+}
+.heading{
+    font-size: 2.4em;
+    font-weight: 800;
+    text-align: center;
+    color: #1d619a;
+    margin: 0;
+}
+.subheading{
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #2f3542;
+    margin: 0;
+    margin-bottom: 0.2rem;
+}
+.text{
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0;
+}
+@media only screen and (min-width: 500px) {
+}
+@media only screen and (min-width: 850px) {
+    .container{
+        width: 60%;
+    }
+    .text{
+      width: 80%;
+    }
+}

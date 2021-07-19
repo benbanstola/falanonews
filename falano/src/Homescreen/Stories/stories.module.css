@@ -1,0 +1,189 @@
+.sectiontitle{
+    font-size: 2em;
+    line-height: 1.4;
+    text-align: center;
+    color: #4b4b4b;
+    font-weight: 900;
+    margin: 0;
+    margin-top: 3rem;
+}
+.videolistmaincontainer{
+    display: grid;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.videolistcontainer{
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.videolistcontainer:hover .playicon {
+    font-size: 5.6em;
+    transition: 0.2ms ease-in-out;
+}
+.thumbnailcontainer{
+    position: relative;
+    overflow: hidden;
+    grid-column: 1/-1;
+   
+}
+
+.thumbnail{
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    border-radius: 4px;
+    margin: -2% 0;
+    border-radius: 4px;
+}
+.playicon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3.7em;
+}
+
+.duration{
+    justify-self: start;
+    margin: 5px;
+    color: #747d8c;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+.datepublished{
+    justify-self: start;
+    margin: 5px;
+    color:#747d8c;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+.title{
+    color: #2d3436;
+    margin: 5px 0 0 0;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 700;
+    grid-column: 1/-1;
+}
+
+
+/* 
+open stories css */
+
+.opencontainer{
+    margin: 2rem 0;
+    font-size: 1em;
+   line-height: 1.4;
+   font-weight: 500;
+   text-rendering: optimizeLegibility;
+}
+.opencontentcontainer{
+    display: block;
+}
+
+
+.opentitle{
+    font-size: 2.2em;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.2rem;
+    word-spacing: -0.15;
+    line-height: 1.3;
+}
+.opencontent{
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 1.7;
+    padding: 1rem 1rem;   
+}
+
+.openmeta{
+    font-size: 1.1em;
+    color: grey;
+}
+.openimage{
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    grid-row: 1/2;
+    margin: -12% 0;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.opendescription{
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 2rem 1rem;
+  
+}
+.openlink{
+    font-size: 1.2em;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #1D619A;
+    text-align: center;
+}
+.viewmore{
+    font-size: 1.2em;
+    text-decoration: underline;
+    color: #353b48;
+    padding: 0;
+}
+.horizontalline{
+    width: 70%;
+    color:#ecf0f1;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.morebutton{
+    display: block;
+    margin: 2rem auto;
+    background-color: #2d3436;
+    width: fit-content;
+    border-radius:8px;
+    color: white;
+    padding: 12px 16px;
+    min-height: 32px;
+    min-width: 32px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 500px) {
+
+}
+@media only screen and (min-width: 850px) {
+    .maincontainer{
+        padding: 0 7rem;
+    }
+.opencontainer{
+    width: 60%;
+    margin: 2rem auto;
+}
+.opencontent{
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.5;
+    padding: 1rem 1rem;   
+}
+
+
+
+
+
+
+
+}
